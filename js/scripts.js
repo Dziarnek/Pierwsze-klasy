@@ -1,6 +1,6 @@
 var iPhone6S = new Phone("Apple", 2250, "silver"),
-    SamsungGalaxyS6 = new Phone("Samsung", 2000, "black"),
-    OnePlusOne = new Phone("OnePlus", 1880, "black");
+    samsungGalaxyS6 = new Phone("Samsung", 2000, "black"),
+    onePlusOne = new Phone("OnePlus", 1880, "black");
     appleBtn = document.getElementById("apple"),
     samsungBtn = document.getElementById("samsung"),
     onePlusBtn = document.getElementById("onePlus");
@@ -24,13 +24,13 @@ appleBtn.addEventListener("click", function() {
     iPhone6S.showInfo()
 });
 
-SamsungGalaxyS6.printInfo();
+samsungGalaxyS6.printInfo();
 samsungBtn.addEventListener("click", function() {
-    SamsungGalaxyS6.showInfo()
+    samsungGalaxyS6.showInfo()
 });
 
-OnePlusOne.printInfo();
+onePlusOne.printInfo();
 onePlusBtn.addEventListener("click", function() {
-    OnePlusOne.showInfo()
+    onePlusOne.showInfo()
 });
 
